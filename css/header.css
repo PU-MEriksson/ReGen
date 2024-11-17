@@ -1,0 +1,18 @@
+
+.discount {
+display: flex;
+width: 1130px;
+padding: var(--spacing-1, 8px) var(--spacing-3, 16px);
+justify-content: center;
+align-items: center;
+background: var(--colors-primary-500, #FC6313);
+}
+
+.discount .text {
+    color: var(--colors-primary-50, #FFF6ED);
+font-family: var(--font-family-body, "IBM Plex Sans");
+font-size: 17px;
+font-style: normal;
+font-weight: var(--font-weight-regular, 400);
+line-height: 150%; /* 25.5px */
+}
