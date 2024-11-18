@@ -15,8 +15,9 @@
         </div>
     </div>
     <nav class="nav">
-        <nav class="navbar">
-            <nav class="logo-wrapper">
+        <div class="navbar">
+            <div class="logo-wrapper">
+                <!-- Logo SVG -->
                 <svg width="150" height="20" viewBox="0 0 150 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="logo-light-transparent" clip-path="url(#clip0_449_1849)">
                         <path id="Vector" d="M20 20H0V0L20 20Z" fill="#F6F8F9" />
@@ -33,8 +34,8 @@
                         </clipPath>
                     </defs>
                 </svg>
-            </nav>
-            <button class="navbar-button">
+            </div>
+            <button class="menu-toggle">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="icon/menu">
                         <mask id="mask0_449_1863" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
@@ -47,8 +48,21 @@
                 </svg>
                 Meny
             </button>
-        </nav>
-        <nav class="mobile-expanded-menu">
-        </nav>
+        </div>
+        <div class="mobile-expanded-menu">
+            <input type="text" class="search-bar" placeholder="Sök produkter">
+            <ul>
+                <li><a href="#vertex1">VERTEX-1 Kollektion</a></li>
+                <li><a href="#skidglasogon">Skidglasögon</a></li>
+                <li><a href="#skidhjalm">Skidhjälm</a></li>
+                <li><a href="#ryggplatta">Ryggplatta</a></li>
+                <li><a href="#gps-tagg">GPS-tagg</a></li>
+            </ul>
+            <div class="menu-buttons">
+                <button>Bli Medlem</button>
+                <button>Logga In</button>
+                <button>🇬🇧 Switch to English</button>
+            </div>
+        </div>
     </nav>
 </header>
