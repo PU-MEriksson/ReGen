@@ -1,7 +1,7 @@
 
 .promotion-bar {
 display: flex;
-width: 1130px;
+max-width: 960px;
 padding: var(--spacing-1, 8px) var(--spacing-3, 16px);
 justify-content: center;
 align-items: center;
@@ -20,7 +20,7 @@ line-height: 150%; /* 25.5px */
 .nav {
     background-color: #212A30;
     display: flex;
-width: 350px;
+max-width: 960px;
 flex-direction: column;
 align-items: flex-start;
 }
