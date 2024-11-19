@@ -1,0 +1,128 @@
+/* Todo:    - Fix the underline under the headings
+            - Make the heading thinner */
+
+footer {
+  display: flex;
+  max-width: 73.75rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3rem;
+  flex: 1 0 0;
+  background-color: #212a30;
+}
+
+.header {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.25rem;
+  color: #fff;
+  min-width: 16rem;
+}
+
+h6 {
+  font-family: var(--font-family-body, "IBM Plex Sans");
+  font-size: var(--font-size-3, 1.5rem);
+  font-style: normal;
+  font-weight: var(--font-weight-medium, 500);
+  line-height: 150%; /* 2.25rem */
+}
+
+.link-list {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.0625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 1.59375rem */
+  color: #d4dee3;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* Layout */
+.wrapper {
+  display: flex;
+  padding: 3rem 2rem;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1 0 0;
+  background-color: #212a30;
+}
+
+.link-category-sorter {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 2rem;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.link-category-container {
+  display: flex;
+  min-width: 12.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  flex: 1 0 0;
+}
+
+.header {
+  display: flex;
+  height: 2.25rem;
+  padding-bottom: 0.75rem;
+  align-items: center;
+  gap: 0.25rem;
+  align-self: stretch;
+  border-bottom: 2px solid #384b54;
+  background-color: #212a30;
+}
+
+.link-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.link-list li {
+  display: flex;
+  padding: 0.25rem 0rem;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: stretch;
+}
+
+.social-media-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+  align-self: stretch;
+  color: #f6f8f9;
+  border-radius: 0.25rem;
+}
+
+.social-media-links {
+  flex: 1 0 0;
+  color: #f6f8f9;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.0625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 1.0625rem */
+  background-color: #384b54;
+  height: 3 rem;
+  display: flex;
+  height: 2.5rem;
+  min-width: 13.5rem;
+  padding: 0.5rem;
+  align-items: center;
+  gap: 0.5rem;
+  align-self: stretch;
+}

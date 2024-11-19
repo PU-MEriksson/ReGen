@@ -1,0 +1,10 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon/brand_triangle">
+<mask id="mask0_509_1408" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
+<rect id="Bounding box" width="20" height="20" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_509_1408)">
+<path id="Vector" d="M18 18H2V2L18 18Z" fill="#FD7E2F"/>
+</g>
+</g>
+</svg>
