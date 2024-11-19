@@ -5,11 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/body.css">
+    <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
+
+
+developer
     <title>ReGen</title>
 </head>
 
@@ -55,14 +60,55 @@
             </button>
         </div>
         <div class="mobile-expanded-menu">
-            <input type="text" class="search-bar" placeholder="Sök produkter">
-            <ul>
-                <li><a href="#vertex1">VERTEX-1 Kollektion</a></li>
-                <li><a href="#skidglasogon">Skidglasögon</a></li>
-                <li><a href="#skidhjalm">Skidhjälm</a></li>
-                <li><a href="#ryggplatta">Ryggplatta</a></li>
-                <li><a href="#gps-tagg">GPS-tagg</a></li>
-            </ul>
+            <div class="start-container">
+                <input type="text" class="search-bar" placeholder="Sök produkter">
+                <div class="menu-group">
+                    <ul>
+                        <li><a href="#vertex1">VERTEX-1 Kollektion
+                            </a></li>
+                        <li><a href="#skidglasogon">Skidglasögon <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="icon/arrow_forward">
+                                        <mask id="mask0_513_487" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
+                                            <rect id="Bounding box" width="20" height="20" fill="#D9D9D9" />
+                                        </mask>
+                                        <g mask="url(#mask0_513_487)">
+                                            <path id="arrow_forward" d="M13.125 10.75H4V9.25H13.125L8.9375 5.0625L10 4L16 10L10 16L8.9375 14.9375L13.125 10.75Z" fill="#384B54" />
+                                        </g>
+                                    </g>
+                                </svg></a></li>
+                        <li><a href="#skidhjalm">Skidhjälm <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="icon/arrow_forward">
+                                        <mask id="mask0_513_487" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
+                                            <rect id="Bounding box" width="20" height="20" fill="#D9D9D9" />
+                                        </mask>
+                                        <g mask="url(#mask0_513_487)">
+                                            <path id="arrow_forward" d="M13.125 10.75H4V9.25H13.125L8.9375 5.0625L10 4L16 10L10 16L8.9375 14.9375L13.125 10.75Z" fill="#384B54" />
+                                        </g>
+                                    </g>
+                                </svg></a></li>
+                        <li><a href="#ryggplatta">Ryggplatta <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="icon/arrow_forward">
+                                        <mask id="mask0_513_487" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
+                                            <rect id="Bounding box" width="20" height="20" fill="#D9D9D9" />
+                                        </mask>
+                                        <g mask="url(#mask0_513_487)">
+                                            <path id="arrow_forward" d="M13.125 10.75H4V9.25H13.125L8.9375 5.0625L10 4L16 10L10 16L8.9375 14.9375L13.125 10.75Z" fill="#384B54" />
+                                        </g>
+                                    </g>
+                                </svg></a></li>
+                        <li><a href="#gps-tagg">GPS-tagg <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="icon/arrow_forward">
+                                        <mask id="mask0_513_487" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
+                                            <rect id="Bounding box" width="20" height="20" fill="#D9D9D9" />
+                                        </mask>
+                                        <g mask="url(#mask0_513_487)">
+                                            <path id="arrow_forward" d="M13.125 10.75H4V9.25H13.125L8.9375 5.0625L10 4L16 10L10 16L8.9375 14.9375L13.125 10.75Z" fill="#384B54" />
+                                        </g>
+                                    </g>
+                                </svg></a></li>
+                    </ul>
+                </div>
+            </div>
             <div class="menu-buttons">
                 <button>Bli Medlem</button>
                 <button>Logga In</button>
