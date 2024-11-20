@@ -1,6 +1,6 @@
 <body>
-    <!-- main kod här: -->
 
+    <!-- här är hjälmen: -->
     <div class="product-container-helmet">
         <div class="helmet">
             <img src="/icon/img.png">
@@ -17,6 +17,24 @@
             </div>
         </div>
     </div>
+
+    <!-- Här är POV sektionen: -->
+    <div class="glassesPov">
+        <div class="image-container"></div>
+        <!-- Oklart, färdigställs senare om möjligt. Se nedan: -->
+        <div class="goggles-overlay">
+            <div class="base"></div>
+            <div class="mask"></div>
+        </div>
+        <div class="text-wrapper">
+            <div class="text-container-pov">
+                <div class="header-pov">Hinder-avkänning</div>
+                <div class="description-pov">Få snabb information om risker i din omgivning och åk med ökad trygghet.</div>
+            </div>
+
+        </div>
+    </div>
+
     <script src="/navbar.js">
     </script>
 </body>
