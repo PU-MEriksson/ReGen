@@ -21,9 +21,9 @@
         <div class="newsletter-container">
             <p>Prenumerera på vårt nyhetsbrev</p>
             <form action="/submit" method="post">
-                <input type="email" id="email" name="email" placeholder="ex: karl.karlsson@gmail.com" required>
+                <input type="email" id="email" name="email" placeholder="ex: karl.karlsson@gmail.com">
                 <br>
-                <button type="submit">Submit</button>
+                <button type="submit">Prenumerera</button>
             </form>
         </div>
     </div>
