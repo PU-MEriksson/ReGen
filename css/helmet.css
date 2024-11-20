@@ -1,13 +1,12 @@
 .product-container-helmet {
     display: flex;
-    
     padding: var(--spacing-7, 64px) var(--spacing-3, 16px);
     justify-content: center;
     align-items: center;
     align-content: center;
     gap: 48px var(--spacing-6, 48px);
     flex-wrap: wrap;
-    background: linear-gradient(0deg, rgba(246, 248, 249, 0.72) 0%, rgba(246, 248, 249, 0.72) 100%), url(<path-to-image>) lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(246, 248, 249, 0.72) 0%, rgba(246, 248, 249, 0.72) 100%), url(/icon/glossy-white-flowing-carbon-fiber\ 1.png) lightgray 50% / cover no-repeat;
 }
 
 .helmet {
