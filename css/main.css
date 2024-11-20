@@ -1,6 +1,6 @@
 .product-container-helmet {
     display: flex;
-    max-width: 960px;
+    
     padding: var(--spacing-7, 64px) var(--spacing-3, 16px);
     justify-content: center;
     align-items: center;
@@ -34,5 +34,62 @@ justify-content: flex-end;
 align-items: flex-start;
 gap: var(--spacing-0, 4px);
 align-self: stretch;
+}
+
+.header-1 {
+    color: var(--colors-neutral-600, #4E6D7B);
+
+/* Title Small */
+font-family: var(--font-family-body, "IBM Plex Sans");
+font-size: var(--font-size-3, 24px);
+font-style: normal;
+font-weight: var(--font-weight-medium, 500);
+line-height: 150%; /* 36px */
+}
+
+.header-2 {
+    color: var(--colors-neutral-950, #212A30);
+
+/* Headline Small */
+font-family: var(--font-family-header, "IBM Plex Sans");
+font-size: var(--font-size-6, 41px);
+font-style: normal;
+font-weight: var(--font-weight-bold, 600);
+line-height: 150%; /* 61.5px */
+}
+
+.header-3 {
+    color: var(--colors-neutral-800, #384B54);
+    align-self: stretch;
+/* Body Small */
+font-family: var(--font-family-body, "IBM Plex Sans");
+font-size: 17px;
+font-style: normal;
+font-weight: var(--font-weight-regular, 400);
+line-height: 150%; /* 25.5px */
+}
+
+.helmet-button {
+    all: unset;
+    display: flex;
+    height: 40px;
+    padding: var(--spacing-1, 8px);
+    align-items: center;
+    gap: var(--spacing-1, 8px);
+    border-radius: 4px;
+    background: var(--colors-secondary-700, #037BA1);
+}
+
+.helmet-button-text {
+   all: unset;
+    color: var(--colors-secondary-50, #F1FBFF);
+    /* Button Small */
+    font-family: var(--font-family-body, "IBM Plex Sans");
+    font-size: var(--font-size-1, 17px);
+    font-style: normal;
+    font-weight: var(--font-weight-medium, 500);
+    line-height: 100%; /* 17px */  
+    background-color: #037BA1;
+
 }
 

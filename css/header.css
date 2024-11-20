@@ -1,7 +1,6 @@
 
 .promotion-bar {
 display: flex;
-max-width: 960px;
 padding: var(--spacing-1, 8px) var(--spacing-3, 16px);
 justify-content: center;
 align-items: center;
@@ -15,13 +14,13 @@ font-size: 17px;
 font-style: normal;
 font-weight: var(--font-weight-regular, 400);
 line-height: 150%; /* 25.5px */
-max-width: 960px;
+
 }
 
 .nav {
     background-color: #212A30;
     display: flex;
-max-width: 960px;
+
 flex-direction: column;
 align-items: flex-start;
 position: relative;
@@ -191,12 +190,23 @@ line-height: 150%; /* 43.5px */
 
 .mobile-expanded-menu ul li a {
     text-decoration: none;
-    color: #333;
-    display: flex;
+    color:#384B54;
     justify-content: space-between;
     align-items: center;
     display: flex;
 height: 40px;
+align-self: stretch;
+}
+
+.mobile-expanded-menu ul li a[href="#vertex1"] {
+    color: var(--colors-neutral-950, #212A30);
+
+/* Title Base */
+font-family: var(--font-family-body, "IBM Plex Sans");
+font-size: var(--font-size-4, 29px);
+font-style: normal;
+font-weight: var(--font-weight-medium, 500);
+line-height: 150%; /* 43.5px */
 }
 
 
