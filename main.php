@@ -13,4 +13,18 @@
     </div>
     <script src="/navbar.js">
     </script>
+
+
+
+    <!-- kod för nyhetsbrevet -->
+    <div class="newsletter-frame">
+        <div class="newsletter-container">
+            <p>Prenumerera på vårt nyhetsbrev</p>
+            <form action="/submit" method="post">
+                <input type="email" id="email" name="email" placeholder="ex: karl.karlsson@gmail.com" required>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
 </body>
