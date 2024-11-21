@@ -1,0 +1,113 @@
+/* Fortsätt med media querys */
+
+.sustainability-section {
+  display: flex;
+  /* width: 21.875rem; */
+  padding: 4rem 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f6f8f9;
+}
+
+.sustainability-container {
+  display: flex;
+  max-width: 80rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  align-self: stretch;
+}
+
+.sustainability-container h2 {
+  color: #324148;
+  font-family: "IBM Plex Sans";
+  font-size: 2.5625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  align-self: stretch;
+}
+
+.cards-container {
+  display: flex;
+  min-width: 16.25rem;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 1rem 1rem;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.sustainability-background-image1 {
+  height: 25rem;
+  min-width: 16.25rem;
+  min-height: 18.75rem;
+  max-height: 25rem;
+  flex: 1 0 0;
+  background: url(/images/sustainability1.png) lightgray 50% / cover no-repeat;
+}
+
+.sustainability-background-image2 {
+  height: 25rem;
+  min-width: 16.25rem;
+  min-height: 18.75rem;
+  max-height: 25rem;
+  flex: 1 0 0;
+  background: url(/images/sustainability2.png) lightgray 50% / cover no-repeat;
+}
+
+.sustainability-background-image3 {
+  height: 25rem;
+  min-width: 16.25rem;
+  min-height: 18.75rem;
+  max-height: 25rem;
+  flex: 1 0 0;
+  background: url(/images/sustainability3.png) lightgray 50% / cover no-repeat;
+}
+
+.button-text-container {
+  display: flex;
+  min-width: 17.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-4, 1.5rem);
+  flex: 1 0 0;
+}
+
+.button-text-container p {
+  color: #324148;
+  font-family: "IBM Plex Sans";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 2.25rem */
+  align-self: stretch;
+}
+
+.button-text-container button {
+  color: #384b54;
+  font-family: "IBM Plex Sans";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 1.25rem */
+  border: none;
+
+  display: flex;
+  height: 3rem;
+  padding: 0.75rem;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 0.25rem;
+  background: #e8edf0;
+}
+
+@media (min-width: 960px) {
+  .sustainability-section {
+    padding: 6rem 1rem;
+  }
+}
+
+@media (min-width: 1440px) {
+}
