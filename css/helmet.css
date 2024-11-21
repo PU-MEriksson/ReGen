@@ -89,6 +89,39 @@ line-height: 150%; /* 25.5px */
     font-weight: var(--font-weight-medium, 500);
     line-height: 100%; /* 17px */  
     background-color: #037BA1;
+}
 
+@media(min-width: 960px) {
+    .product-container-helmet {
+        display: flex;
+padding: var(--spacing-7, 64px) var(--spacing-3, 16px);
+justify-content: center;
+align-items: center;
+align-content: center;
+gap: 48px var(--spacing-6, 48px);
+align-self: stretch;
+flex-wrap: wrap;
+    }
+    .helmet {
+        width: 400px;
+height: 400px;
+    }
+}
+
+@media(min-width: 1440px) {
+    .product-container-helmet {
+        display: flex;
+padding: var(--spacing-7, 64px) var(--spacing-3, 16px);
+justify-content: center;
+align-items: center;
+align-content: center;
+gap: 48px var(--spacing-6, 48px);
+align-self: stretch;
+flex-wrap: wrap;
+    }
+    .helmet {
+        width: 480px;
+        height: 480px;
+    }
 }
 
