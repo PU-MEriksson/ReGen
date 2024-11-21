@@ -22,6 +22,11 @@ fill: var(--colors-neutral-950-a80, rgba(33, 42, 48, 0.80));
 
 .text-wrapper {
     background: var(--colors-neutral-900, #324148);
+    display: flex;
+padding: var(--spacing-6, 48px) var(--spacing-3, 16px) var(--spacing-7, 64px) var(--spacing-3, 16px);
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 
 .text-container-pov {
@@ -57,4 +62,31 @@ font-size: 20px;
 font-style: normal;
 font-weight: var(--font-weight-regular, 400);
 line-height: 150%; /* 30px */
+}
+
+@media (min-width: 960px) {
+    .glassesPov {
+        flex-direction: row;
+        display: flex;
+height: 325px;
+align-items: flex-start;
+align-self: stretch; /* Ändra layout till rad */
+    }
+
+    .image-container {
+        flex: 1 0 0;
+        height: 325px;
+         /* Bilden behåller sin storlek */
+    }
+
+    .text-wrapper {
+        flex: 1;
+        display: flex;
+padding: var(--spacing-6, 48px);
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+flex: 1 0 0;
+align-self: stretch; /* Texten tar resterande utrymme */
+    }
 }

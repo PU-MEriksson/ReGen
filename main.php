@@ -21,11 +21,6 @@
     <!-- Här är POV sektionen: -->
     <div class="glassesPov">
         <div class="image-container"></div>
-        <!-- Oklart, färdigställs senare om möjligt. Se nedan: -->
-        <div class="goggles-overlay">
-            <div class="base"></div>
-            <div class="mask"></div>
-        </div>
         <div class="text-wrapper">
             <div class="text-container-pov">
                 <div class="header-pov">Hinder-avkänning</div>
