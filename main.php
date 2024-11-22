@@ -1,5 +1,50 @@
 <body>
 
+    <!-- Top feature-delen -->
+    <section class="top-features">
+        <div class="top-features-container">
+            <h2>Tekniken bakom VERTEX skidglasögon</h2>
+            <img src="/images/VERTEXskigoggles.png" alt="Vertex skidglasögon">
+            <div class="feature-card-container">
+
+                <div class="feature-card-row">
+                    <div class="feature-card">
+                        <img src="/icon/dew_point2.svg" alt="Anti-frost">
+                        <p>Anti-Frost</p>
+                    </div>
+                    <div class="feature-card">
+                        <img src="/icon/emergency_call2.svg" alt="Nödsamtal">
+                        <p>Nödsamtal</p>
+                    </div>
+                    <div class="feature-card">
+                        <img src="/icon/water_lock2.svg" alt="Vattentät">
+                        <p>Vattentät</p>
+                    </div>
+                </div>
+
+
+                <div class="feature-card-row">
+                    <div class="feature-card">
+                        <img src="/icon/head_mounted_device2.svg" alt="AR">
+                        <p>AR</p>
+                    </div>
+                    <div class="feature-card">
+                        <img src="/icon/headphones2.svg" alt="Hörlurar">
+                        <p>Hörlurar</p>
+                    </div>
+                    <div class="feature-card">
+                        <img src="/icon/photo_camera2.svg" alt="HD-Kamera">
+                        <p>HD-Kamera</p>
+                    </div>
+                </div>
+
+
+            </div>
+            <button>Se alla specifikationer</button>
+    </section>
+
+
+
     <!-- här är hjälmen: -->
     <div class="product-container-helmet">
         <div class="helmet">
