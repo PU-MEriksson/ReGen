@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/helmet.css">
     <link rel="stylesheet" href="/css/glassesPov.css">
     <link rel="stylesheet" href="/css/sustainability.css">
+    <link rel="stylesheet" href="/css/newsletter.css">
     <link rel="stylesheet" href="/css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

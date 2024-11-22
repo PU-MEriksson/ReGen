@@ -65,10 +65,10 @@
     <section class="newsletter-frame">
         <div class="newsletter-container">
             <p>Prenumerera på vårt nyhetsbrev</p>
-            <!-- <form action="/submit" method="post"> -->
-            <input type="email" id="email" name="email" placeholder="ex: karl.karlsson@gmail.com">
-            <br>
-            <button type="submit">Prenumerera</button>
+            <form>
+                <input type="email" id="email" name="email" placeholder="ex: karl.karlsson@gmail.com">
+
+                <button type="submit">Prenumerera</button>
             </form>
         </div>
     </section>
