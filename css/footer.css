@@ -1,5 +1,6 @@
 /* Todo:    - Fix the underline under the headings
-            - Make the heading thinner */
+            - Make the heading thinner(?)
+            - Fix the social media links when they are between the two media query sizes */
 
 footer {
   display: flex;
@@ -46,7 +47,7 @@ ul {
 /* Layout */
 .wrapper {
   display: flex;
-  padding: 3rem 2rem;
+  padding: 3rem 1rem 12rem 1rem;
   justify-content: center;
   align-items: flex-start;
   flex: 1 0 0;
@@ -105,10 +106,18 @@ ul {
   gap: 0.75rem;
   align-self: stretch;
   color: #f6f8f9;
-  border-radius: 0.25rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+  align-self: stretch;
 }
 
 .social-media-links {
+  text-decoration: none;
   flex: 1 0 0;
   color: #f6f8f9;
   font-family: "IBM Plex Sans", sans-serif;
@@ -125,4 +134,25 @@ ul {
   align-items: center;
   gap: 0.5rem;
   align-self: stretch;
+  border-radius: 0.25rem;
+}
+
+@media (min-width: 540px) {
+  .row {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+  .social-media-links {
+    width: calc(50% - 0.75rem);
+  }
+}
+
+@media (min-width: 960px) {
+  @media (min-width: 960px) {
+    .row {
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+  }
 }

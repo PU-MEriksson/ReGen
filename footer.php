@@ -59,27 +59,29 @@
         </div>
 
         <div class="social-media-container">
-            <div class="social-media-links">
-                <img src="icon/logo-x.svg" alt="X logo">
-                Följ oss på X
-            </div>
-            <div class="social-media-links">
-                <img src="icon/logo-tiktok.svg" alt="Tiktok logo">
-                Följ oss på TikTok
-            </div>
-            <div class="social-media-links">
-                <img src="icon/logo-facebook.svg" alt="Facebook logo">
-                Följ oss på Facebook
-            </div>
-
-            <div class="social-media-links">
-                <img src="icon/logo-instagram.svg" alt="Instagram logo">
-                Följ oss på Instagram
+            <div class="row">
+                <a href="https://twitter.com" class="social-media-links">
+                    <img src="icon/logo-x.svg" alt="X logo">
+                    Följ oss på X
+                </a>
+                <a href="https://tiktok.com" class="social-media-links">
+                    <img src="icon/logo-tiktok.svg" alt="TikTok logo">
+                    Följ oss på TikTok
+                </a>
+                <a href="https://facebook.com" class="social-media-links">
+                    <img src="icon/logo-facebook.svg" alt="Facebook logo">
+                    Följ oss på Facebook
+                </a>
+                <a href="https://instagram.com" class="social-media-links">
+                    <img src="icon/logo-instagram.svg" alt="Instagram logo">
+                    Följ oss på Instagram
+                </a>
             </div>
         </div>
+</div>
 
 
-    </footer>
+</footer>
 </div>
 
 </html>
