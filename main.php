@@ -32,29 +32,30 @@
 
 
     <!--Sustainability-section-->
-
     <section class="sustainability-section">
         <div class="sustainability-container">
-            <h2>Vår resa mot en hållbar framtid – så bidrar vi</h2>
+            <h2>Vår resa mot en hållbar framtid<br> – så bidrar vi</h2>
             <div class="cards-container">
-                <div class="sustainability-background-image1"></div>
-                <div class="button-text-container">
-                    <p>För varje åkt kilometer med våra skidglasögon planterar vi ett träd.</p>
-                    <button>Läs om vår miljösatsning</button>
+                <div class="sustainability-card">
+                    <div class="sustainability-background-image1"></div>
+                    <div class="button-text-container">
+                        <p>För varje åkt kilometer med våra skidglasögon planterar vi ett träd.</p>
+                        <button>Läs om vår miljösatsning</button>
+                    </div>
                 </div>
-            </div>
-            <div class="cards-container">
-                <div class="sustainability-background-image2"></div>
-                <div class="button-text-container">
-                    <p>Gratis reparation av våra produkter för resten av livet.</p>
-                    <button>Läs om reparationer</button>
+                <div class="sustainability-card">
+                    <div class="sustainability-background-image2"></div>
+                    <div class="button-text-container">
+                        <p>Gratis reparation av våra produkter för resten av livet.</p>
+                        <button>Läs om reparationer</button>
+                    </div>
                 </div>
-            </div>
-            <div class="cards-container">
-                <div class="sustainability-background-image3"></div>
-                <div class="button-text-container">
-                    <p>För varje åkt kilometer med våra skidglasögon planterar vi ett träd.</p>
-                    <button>Läs om materialen</button>
+                <div class="sustainability-card">
+                    <div class="sustainability-background-image3"></div>
+                    <div class="button-text-container">
+                        <p>För varje åkt kilometer med våra skidglasögon planterar vi ett träd.</p>
+                        <button>Läs om materialen</button>
+                    </div>
                 </div>
             </div>
         </div>
