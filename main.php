@@ -50,7 +50,6 @@
         <div class="helmet">
             <img src="/icon/img.png">
         </div>
-
         <div class="helmet-content">
             <div class="text-container">
                 <div class="header-1">VERTEX</div>
@@ -64,14 +63,42 @@
     </div>
 
     <!-- Här är POV sektionen: -->
-    <div class="glassesPov">
-        <div class="image-container"></div>
+    <div class="glassesPov" id="first">
+        <div class="image-container">
+            <div class="ar-obstacle">
+            </div>
+        </div>
         <div class="text-wrapper">
             <div class="text-container-pov">
-                <div class="header-pov">Hinder-avkänning</div>
+                <div class="header-pov">Vänspårning</div>
+                <div class="description-pov">Se enklare var dina medåkare befinner sig, oavsett avstånd.</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="glassesPov" id="second">
+        <div class="image-container">
+            <div class="ar-obstacle">
+            </div>
+        </div>
+        <div class="text-wrapper">
+            <div class="text-container-pov">
+                <div class="header-pov">Navigeringsstöd</div>
+                <div class="description-pov">Få vägledning i backen så du alltid vet exakt var du ska åka.</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="glassesPov" id="third">
+        <div class="image-container">
+            <div class="ar-obstacle">
+            </div>
+        </div>
+        <div class="text-wrapper">
+            <div class="text-container-pov">
+                <div class="header-pov">Hinderavkänning</div>
                 <div class="description-pov">Få snabb information om risker i din omgivning och åk med ökad trygghet.</div>
             </div>
-
         </div>
     </div>
 

@@ -77,7 +77,7 @@
                 <input type="text" class="search-bar" placeholder="Sök produkter">
                 <div class="menu-group">
                     <ul>
-                        <li><a href="#vertex1">VERTEX-1 Kollektion
+                        <li><a href="#vertex1">VERTEX Kollektion
                             </a></li>
                         <li><a href="#skidglasogon">Skidglasögon <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g id="icon/arrow_forward">

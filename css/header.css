@@ -165,20 +165,16 @@ line-height: 150%; /* 43.5px */
         /* width: 100%;
         padding: 12px; */
         border: 1px solid #ddd;
-        /* border-radius: 4px;
-        margin-bottom: 20px; */
+
         font-size: 14px;
         display: flex;
     height: var(--spacing-6, 48px);
     padding: var(--spacing-2, 12px);
     /* align-items: center; */
     gap: var(--spacing-1, 8px);
-    /* align-self: stretch; */
-    /* height: var(--spacing-6, 48px);
-    padding: var(--spacing-2, 12px);
+   
+    align-self: stretch;
     align-items: center;
-    gap: var(--spacing-1, 8px);
-    align-self: stretch; */
     }
 
 
