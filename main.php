@@ -1,7 +1,7 @@
 <body>
 
     <!-- här är hjälmen: -->
-    <div class="product-container-helmet">
+    <section class="product-container-helmet">
         <div class="helmet">
             <img src="/icon/img.png">
         </div>
@@ -15,10 +15,10 @@
                 <button class="helmet-button-text">Utforska hjälm</button>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- Här är POV sektionen: -->
-    <div class="glassesPov" id="first">
+    <section class="glassesPov" id="first">
         <div class="image-container">
             <div class="ar-obstacle">
             </div>
@@ -29,9 +29,9 @@
                 <div class="description-pov">Se enklare var dina medåkare befinner sig, oavsett avstånd.</div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="glassesPov" id="second">
+    <section class="glassesPov" id="second">
         <div class="image-container">
             <div class="ar-obstacle">
             </div>
@@ -42,9 +42,9 @@
                 <div class="description-pov">Få vägledning i backen så du alltid vet exakt var du ska åka.</div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="glassesPov" id="third">
+    <section class="glassesPov" id="third">
         <div class="image-container">
             <div class="ar-obstacle">
             </div>
@@ -55,7 +55,7 @@
                 <div class="description-pov">Få snabb information om risker i din omgivning och åk med ökad trygghet.</div>
             </div>
         </div>
-    </div>
+    </section>
 
 
     <!--Sustainability-section-->
