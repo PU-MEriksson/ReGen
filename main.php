@@ -60,8 +60,21 @@
             </div>
         </div>
     </section>
-    <!--End of sustainability-section-->
 
-    <script src="/navbar.js">
-    </script>
+    <!--Newsletter section-->
+    <section class="newsletter-frame">
+        <div class="newsletter-container">
+            <p>Prenumerera på vårt nyhetsbrev</p>
+            <!-- <form action="/submit" method="post"> -->
+            <input type="email" id="email" name="email" placeholder="ex: karl.karlsson@gmail.com">
+            <br>
+            <button type="submit">Prenumerera</button>
+            </form>
+        </div>
+    </section>
+</body>
+
+
+<script src="/navbar.js">
+</script>
 </body>
