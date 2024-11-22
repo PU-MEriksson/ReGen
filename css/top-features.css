@@ -1,13 +1,16 @@
+/* To do:  - Gör sidan dynamisk
+        - Gör knappen "klickig" */
+
 .top-features {
   display: flex;
-  width: 21.875rem;
+  /* width: 21.875rem; */
   padding: 3rem 0rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  background: url(/images/snowy-background.png) lightgray 50% / cover no-repeat,
-    #baeefd;
+  background: url(/images/snowy-background.png) lightgray 50% / cover no-repeat;
+  /* #baeefd; */
 }
 
 .top-features-container {
@@ -24,8 +27,72 @@
 .top-features-container h2 {
   color: #212a30;
   font-family: "IBM Plex Sans";
-  font-size: var(--font-size-4, 1.8125rem);
+  font-size: 1.8125rem;
   font-style: normal;
-  font-weight: var(--font-weight-medium, 500);
+  font-weight: 500;
   line-height: 150%; /* 2.71875rem */
+  align-self: stretch;
+}
+
+.top-features-container img {
+  height: 18.375rem;
+  /* align-self: stretch; */
+  transform: scaleX(-1);
+}
+
+.feature-card-container {
+  display: flex;
+  max-width: 50rem;
+  align-items: flex-start;
+  gap: var(--spacing-2, 0.75rem);
+  align-self: stretch;
+}
+
+.feature-card-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-2, 0.75rem);
+  flex: 1 0 0;
+}
+
+.feature-card {
+  display: flex;
+  min-width: 7.5rem;
+  padding: 0.75rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  align-self: stretch;
+  border-radius: 0.25rem;
+  background: #f1fbff;
+}
+
+.feature-card img {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+  margin: auto;
+}
+
+.feature-card p {
+  color: #384b54;
+  text-align: center;
+  font-family: "IBM Plex Sans";
+  font-size: 1.0625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 1.59375rem */
+}
+
+.top-features-container button {
+  display: flex;
+  height: 2.5rem;
+  padding: 0.5rem;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: var(--spacing-0, 0.25rem);
+  background: var(--colors-secondary-50, #f1fbff);
+  border: none;
 }
