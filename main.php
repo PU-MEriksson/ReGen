@@ -21,8 +21,6 @@
                         <p>Vattentät</p>
                     </div>
                 </div>
-
-
                 <div class="feature-card-row">
                     <div class="feature-card">
                         <img src="/icon/head_mounted_device2.svg" alt="AR">
@@ -37,8 +35,6 @@
                         <p>HD-Kamera</p>
                     </div>
                 </div>
-
-
             </div>
             <button>Se alla specifikationer</button>
     </section>
