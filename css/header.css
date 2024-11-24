@@ -85,7 +85,6 @@ align-self: stretch;
 
 .search-button {
     display: none;
-    display: flex;
 padding: var(--spacing-2, 12px);
 align-items: center;
 gap: var(--spacing-1, 8px);
@@ -96,7 +95,6 @@ border: none;
 cursor: pointer;
 font-size: 16px;
 color: #f6f8f9;
-display: flex;
 align-items: center;
 gap: 8px; /* Spacing between icon and text */
 position: relative;
@@ -146,7 +144,7 @@ justify-content: space-between;
 align-items: flex-start;
 flex: 1 0 0;
 align-self: stretch;
-gap: var(--spacing-4, 235px);
+gap: var(--spacing-4, 10px);
 }
 
 .mobile-expanded-menu.active {
@@ -238,6 +236,14 @@ line-height: 150%; /* 43.5px */
     display: flex;
 height: 40px;
 align-self: stretch;
+color: var(--colors-neutral-800, #384B54);
+
+/* Button Base */
+font-family: var(--font-family-body, "IBM Plex Sans");
+font-size: var(--font-size-2, 20px);
+font-style: normal;
+font-weight: var(--font-weight-medium, 500);
+line-height: 100%; /* 20px */
 }
 
 .mobile-expanded-menu ul li a[href="#vertex1"] {
