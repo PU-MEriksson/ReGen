@@ -1,0 +1,166 @@
+.top-features {
+  display: flex;
+  padding: 3rem 0rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background: url(/images/snowy-background.png) lightgray 50% / cover no-repeat;
+  /* #baeefd; */
+}
+
+.top-features-container {
+  display: flex;
+  max-width: 60rem;
+  padding: 0rem 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  align-self: stretch;
+}
+
+.top-features-container h2 {
+  color: #212a30;
+  font-family: "IBM Plex Sans";
+  font-size: 1.8125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 2.71875rem */
+  align-self: stretch;
+}
+
+.top-features-container img {
+  height: 18.375rem;
+  /* align-self: stretch; */
+  transform: scaleX(-1);
+}
+
+.feature-card-container {
+  display: flex;
+  max-width: 50rem;
+  align-items: flex-start;
+  gap: var(--spacing-2, 0.75rem);
+  align-self: stretch;
+}
+
+.feature-card-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-2, 0.75rem);
+  flex: 1 0 0;
+}
+
+.feature-card {
+  display: flex;
+  min-width: 7.5rem;
+  padding: 0.75rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  align-self: stretch;
+  border-radius: 0.25rem;
+  background: #f1fbff;
+}
+
+.feature-card img {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+  margin: auto;
+}
+
+.feature-card p {
+  color: #384b54;
+  text-align: center;
+  font-family: "IBM Plex Sans";
+  font-size: 1.0625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 1.59375rem */
+}
+
+.top-features-container button {
+  display: flex;
+  height: 2.5rem;
+  padding: 0.5rem;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: var(--spacing-0, 0.25rem);
+  background: var(--colors-secondary-50, #f1fbff);
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.top-features-container button:active {
+  transform: translateY(2px);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 540px) {
+  .top-features {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem 0rem;
+    min-height: 100vh;
+    background: url(/images/snowy-background.png) lightgray 50% / cover
+      no-repeat;
+  }
+
+  .top-features-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .top-features-container h2 {
+    font-size: 2.1875rem;
+  }
+
+  .top-features-container img {
+    height: 34.8125rem;
+  }
+
+  .feature-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .feature-card-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.75 rem;
+    align-self: stretch;
+
+    .feature-card {
+      display: flex;
+      min-width: 9.375rem;
+      padding: var(--spacing-3, 1rem) var(--spacing-1, 0.5rem);
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: var(--spacing-1, 0.5rem);
+      flex: 1 0 0;
+    }
+
+    .feature-card img {
+      width: var(--spacing-6, 3rem);
+      height: var(--spacing-6, 3rem);
+    }
+
+    .feature-card p {
+      font-size: 1.25rem;
+    }
+  }
+}
