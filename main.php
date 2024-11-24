@@ -114,6 +114,23 @@
         </div>
     </section>
 
+    <!-- GPS-taggen -->
+    <section class="product-container-GPS">
+        <div class="GPS">
+            <img src="/images/gps.png">
+        </div>
+        <div class="GPS-content">
+            <div class="GPS-text-container">
+                <h1>GPS-TAGG</h1>
+                <p>Spåra vänner och familj smidigt
+                    – för extra trygghet.</p>
+            </div>
+            <div class="GPS-button">
+                <button class="GPS-button-text">Utforska GPS-taggen</button>
+            </div>
+        </div>
+    </section>
+
 
     <!--Sustainability-section-->
     <section class="sustainability-section">

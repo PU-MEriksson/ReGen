@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/top-features.css">
     <link rel="stylesheet" href="/css/helmet.css">
     <link rel="stylesheet" href="/css/backplate.css">
+    <link rel="stylesheet" href="/css/gps-tag.css">
     <link rel="stylesheet" href="/css/glassesPov.css">
     <link rel="stylesheet" href="/css/sustainability.css">
     <link rel="stylesheet" href="/css/newsletter.css">
