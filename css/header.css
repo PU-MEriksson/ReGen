@@ -74,9 +74,9 @@
 }
 
 .button-menu-toggle {
-  display: flex;
-  align-items: center;
-  align-self: stretch;
+    display: flex;
+align-items: center;
+align-self: stretch;
 }
 
 .search-button {
@@ -375,5 +375,5 @@
   }
   .menu-toggle {
     display: none;
-  }
+}
 }
