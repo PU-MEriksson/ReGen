@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/hero.css">
     <link rel="stylesheet" href="/css/body.css">
     <link rel="stylesheet" href="/css/top-features.css">
     <link rel="stylesheet" href="/css/helmet.css">
@@ -21,7 +22,7 @@
 
 <header>
     <div class="promotion-bar">
-        <div class="text">
+        <div class="discount-text">
             Bli medlem och få 15% rabatt
         </div>
     </div>

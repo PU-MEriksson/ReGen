@@ -6,7 +6,7 @@
   background: var(--colors-primary-500, #fc6313);
 }
 
-.promotion-bar .text {
+.discount-text {
   color: var(--colors-primary-50, #fff6ed);
   font-family: var(--font-family-body, "IBM Plex Sans");
   font-size: 17px;
