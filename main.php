@@ -39,25 +39,6 @@
             <button>Se alla specifikationer</button>
     </section>
 
-
-
-    <!-- här är hjälmen: -->
-    <section class="product-container-helmet">
-        <div class="helmet">
-            <img src="/icon/img.png">
-        </div>
-        <div class="helmet-content">
-            <div class="text-container">
-                <div class="header-1">VERTEX</div>
-                <div class="header-2">SKIDHJÄLM</div>
-                <div class="header-3">Det självklara valet för dig som vill ha både prestanda och stil i backen.</div>
-            </div>
-            <div class="helmet-button">
-                <button class="helmet-button-text">Utforska hjälm</button>
-            </div>
-        </div>
-    </section>
-
     <!-- Här är POV sektionen: -->
     <section class="glassesPov" id="first">
         <div class="image-container">
@@ -94,6 +75,41 @@
             <div class="text-container-pov">
                 <div class="header-pov">Hinderavkänning</div>
                 <div class="description-pov">Få snabb information om risker i din omgivning och åk med ökad trygghet.</div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- här är hjälmen: -->
+    <section class="product-container-helmet">
+        <div class="helmet">
+            <img src="/icon/img.png">
+        </div>
+        <div class="helmet-content">
+            <div class="text-container">
+                <div class="header-1">VERTEX</div>
+                <div class="header-2">SKIDHJÄLM</div>
+                <div class="header-3">Det självklara valet för dig som vill ha både prestanda och stil i backen.</div>
+            </div>
+            <div class="helmet-button">
+                <button class="helmet-button-text">Utforska hjälm</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ryggplattan -->
+    <section class="product-container-backplate">
+        <div class="backplate">
+            <img src="/images/backplate.png">
+        </div>
+        <div class="backplate-content">
+            <div class="backplate-text-container">
+                <h2>VERTEX</h2>
+                <h1>RYGGPLATTA</h1>
+                <p>Ryggplatta och väst i ett – perfekt både i backen och på afterskin.</p>
+            </div>
+            <div class="helmet-button">
+                <button class="helmet-button-text">Utforska ryggplattan</button>
             </div>
         </div>
     </section>

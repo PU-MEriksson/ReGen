@@ -1,0 +1,131 @@
+.product-container-backplate {
+  display: flex;
+  padding: 64px 16px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 48px 48px;
+  flex-wrap: wrap;
+  background: linear-gradient(
+      180deg,
+      rgba(33, 42, 48, 0) 29.39%,
+      rgba(33, 42, 48, 0.62) 100%
+    ),
+    linear-gradient(
+      0deg,
+      rgba(236, 72, 10, 0.47) 0%,
+      rgba(236, 72, 10, 0.47) 100%
+    ),
+    url(/images/background.png) lightgray 50% / cover no-repeat;
+}
+
+.backplate {
+  width: 320px;
+  height: 320px;
+  flex-shrink: 0;
+}
+
+.backplate-content {
+  display: flex;
+  min-width: 260px;
+  max-width: 420px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+  flex: 1 0 0;
+}
+
+.backplate-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 4px;
+  align-self: stretch;
+}
+
+.backplate-text-container h2 {
+  color: #aec3cb;
+  font-family: "IBM Plex Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 36px */
+}
+
+.backplate-text-container h1 {
+  color: #f6f8f9;
+  font-family: "IBM Plex Sans";
+  font-size: 41px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 61.5px */
+}
+
+.backplate-text-container p {
+  color: #f6f8f9;
+  align-self: stretch;
+  font-family: "IBM Plex Sans";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 25.5px */
+}
+
+.backplate-button {
+  all: unset;
+  display: flex;
+  height: 40px;
+  padding: 8px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  background: var(--colors-secondary-700, #037ba1);
+}
+
+.backplate-button-text {
+  all: unset;
+  color: #f1fbff;
+  font-family: "IBM Plex Sans";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 17px */
+  background-color: #037ba1;
+}
+
+@media (min-width: 960px) {
+  .product-container-backplate {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 64px 16px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 48px 48px;
+    align-self: stretch;
+    flex-wrap: wrap;
+  }
+  .backplate {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .product-container-backplate {
+    display: flex;
+    padding: 64px 16px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 48px 48px;
+    align-self: stretch;
+    flex-wrap: wrap;
+  }
+  .backplate {
+    width: 480px;
+    height: 480px;
+  }
+}
