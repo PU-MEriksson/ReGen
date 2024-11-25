@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  background: url(/images/snowy-background.png) lightgray 50% / cover no-repeat;
+  background: url(./images/snowy-background.png) lightgray 50% / cover no-repeat;
   /* #baeefd; */
 }
 
@@ -109,7 +109,7 @@
     gap: 2rem;
     padding: 3rem 0rem;
     min-height: 100vh;
-    background: url(/images/snowy-background.png) lightgray 50% / cover
+    background: url(./images/snowy-background.png) lightgray 50% / cover
       no-repeat;
   }
 
