@@ -16,7 +16,7 @@
       rgba(236, 72, 10, 0.47) 0%,
       rgba(236, 72, 10, 0.47) 100%
     ),
-    url(images/background.png) lightgray 50% / cover no-repeat;
+    url(../images/background.png) lightgray 50% / cover no-repeat;
 }
 
 .backplate {

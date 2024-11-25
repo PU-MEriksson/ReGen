@@ -20,22 +20,23 @@
 #first .ar-obstacle {
   flex: 1 0 0;
   align-self: stretch;
-  background: url(icon/ar-tracking-mockup.svg) #324148 50% / contain no-repeat;
+  background: url(../icon/ar-tracking-mockup.svg) #324148 50% / contain
+    no-repeat;
   aspect-ratio: 16 / 9;
 }
 
 #second .ar-obstacle {
   flex: 1 0 0;
   align-self: stretch;
-  background: url(icon/ar-obstacle-mockup-navigering.svg) #324148 50% / contain
-    no-repeat;
+  background: url(../icon/ar-obstacle-mockup-navigering.svg) #324148 50% /
+    contain no-repeat;
   aspect-ratio: 16 / 9;
 }
 
 #third .ar-obstacle {
   flex: 1 0 0;
   align-self: stretch;
-  background: url(icon/ar-obstacle-hinder-mockup.svg) #324148 50% / contain
+  background: url(../icon/ar-obstacle-hinder-mockup.svg) #324148 50% / contain
     no-repeat;
   aspect-ratio: 16 / 9;
 }
