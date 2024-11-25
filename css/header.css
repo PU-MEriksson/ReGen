@@ -403,7 +403,7 @@ background: var(--colors-neutral-800, #384B54);
     box-shadow: none;
     outline: none;
 
- color: var(--colors-neutral-50, #F6F8F9);
+ color: var(--colors-neutral-50, #F6F8F9)!important;
 font-family: var(--font-family-body, "IBM Plex Sans");
 font-size: 20px;
 font-style: normal;
