@@ -181,7 +181,7 @@
             <div class="end-container">
                 <button>Bli Medlem</button>
                 <button>Logga In</button>
-                <button> <img src="/icon/flag-uk.svg"> to English</button>
+                <button> <img src="./icon/flag-uk.svg"> to English</button>
             </div>
         </div>
     </nav>

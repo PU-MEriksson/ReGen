@@ -55,7 +55,7 @@
   max-height: 25rem;
   max-width: 573px;
   flex: 1 0 0;
-  background: url(./images/Sustainability-section1.png) lightgray 50% / cover
+  background: url(/images/Sustainability-section1.png) lightgray 50% / cover
     no-repeat;
 }
 
@@ -65,7 +65,7 @@
   min-height: 18.75rem;
   max-height: 25rem;
   flex: 1 0 0;
-  background: url(./images/Sustainability-section2.png) lightgray 50% / cover
+  background: url(/images/Sustainability-section2.png) lightgray 50% / cover
     no-repeat;
 }
 
@@ -76,7 +76,7 @@
   max-height: 25rem;
   max-width: 573px;
   flex: 1 0 0;
-  background: url(./images/Sustainability-section3.png) lightgray 50% / cover
+  background: url(/images/Sustainability-section3.png) lightgray 50% / cover
     no-repeat;
 }
 

@@ -218,6 +218,6 @@
 </body>
 
 
-<script src="/navbar.js">
+<script src="./navbar.js">
 </script>
 </body>
