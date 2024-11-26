@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bildkarusell med färgbyte</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      padding: 20px;
+    }
+    #main-image {
+      width: 300px;
+      height: 300px;
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+    }
+    #controls {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border: 1px solid #ddd;
+      background-color: #f0f0f0;
+      border-radius: 5px;
+    }
+    button:hover {
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <h1>Bildkarusell</h1>
+  <img id="main-image" src="svart/0001.png" alt="Vald bild">
+  <div id="controls">
+    <button id="prev-button">Håll för Föregående</button>
+    <button id="next-button">Håll för Nästa</button>
+    <button id="toggle-set-button">Byt färg</button>
+  </div>
+
+  <script>
+    const imagesSet1 = Array.from({ length: 60 }, (_, i) => `svart/${String(i + 1).padStart(4, '0')}.png`);
+    const imagesSet2 = Array.from({ length: 60 }, (_, i) => `vit/${String(i + 1).padStart(4, '0')}.png`);
+    let currentImages = imagesSet1;
+    let currentIndex = 0;
+
+    const mainImage = document.getElementById('main-image');
+    const prevButton = document.getElementById('prev-button');
+    const nextButton = document.getElementById('next-button');
+    const toggleSetButton = document.getElementById('toggle-set-button');
+    let intervalId;
+
+    function updateImage() {
+      mainImage.src = currentImages[currentIndex];
+    }
+
+    function updateImageSet(newImages) {
+      currentImages = newImages;
+      currentIndex = 0;
+      updateImage();
+    }
+
+    function startSpinning(direction) {
+      intervalId = setInterval(() => {
+        currentIndex = (currentIndex + direction + currentImages.length) % currentImages.length;
+        updateImage();
+      }, 100);
+    }
+
+    function stopSpinning() {
+      clearInterval(intervalId);
+    }
+
+    prevButton.addEventListener('mousedown', () => startSpinning(-1));
+    prevButton.addEventListener('mouseup', stopSpinning);
+    prevButton.addEventListener('mouseleave', stopSpinning);
+
+    nextButton.addEventListener('mousedown', () => startSpinning(1));
+    nextButton.addEventListener('mouseup', stopSpinning);
+    nextButton.addEventListener('mouseleave', stopSpinning);
+
+    toggleSetButton.addEventListener('click', () => {
+      if (currentImages === imagesSet1) {
+        updateImageSet(imagesSet2);
+        toggleSetButton.textContent = "Byt till svart";
+      } else {
+        updateImageSet(imagesSet1);
+        toggleSetButton.textContent = "Byt till vit";
+      }
+    });
+
+    updateImage();
+  </script>
+</body>
+</html>
