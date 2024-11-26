@@ -121,6 +121,9 @@
         </div>
     </section>
 
+    <?php
+    // require __DIR__ . '/turntable.php';
+    ?>
 
     <!-- här är hjälmen: -->
     <section class="product-container-helmet">
