@@ -20,9 +20,18 @@
 }
 
 .backplate {
-  width: 320px;
-  height: 320px;
+  width: 100%;
+  max-width: 480px;
+  aspect-ratio: 1;
   flex-shrink: 0;
+}
+
+.backplate img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  flex-shrink: 0;
+  background: lightgray 50% / cover no-repeat, var(--colors-neutral-50, #f6f8f9);
 }
 
 .backplate-content {
@@ -98,7 +107,7 @@
 @media (min-width: 960px) {
   .product-container-backplate {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     padding: 64px 16px;
     justify-content: center;
     align-items: center;
@@ -108,8 +117,7 @@
     flex-wrap: wrap;
   }
   .backplate {
-    width: 400px;
-    height: 400px;
+    max-width: 25rem;
   }
 }
 
@@ -125,7 +133,6 @@
     flex-wrap: wrap;
   }
   .backplate {
-    width: 480px;
-    height: 480px;
+    max-width: 30rem;
   }
 }

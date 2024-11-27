@@ -46,7 +46,7 @@
     <section class="top-features">
         <div class="top-features-container">
             <h2>Tekniken bakom VERTEX skidglasögon</h2>
-            <img src="./images/VERTEXskigoggles.png" alt="Vertex skidglasögon">
+            <img src="./svart/0001.png" alt="Vertex skidglasögon">
             <div class="feature-card-container">
 
                 <div class="feature-card-row">
@@ -128,7 +128,7 @@
     <!-- här är hjälmen: -->
     <section class="product-container-helmet">
         <div class="helmet">
-            <img src="./icon/img.png">
+            <img src="./images/helmet-white/0009.png">
         </div>
         <div class="helmet-content">
             <div class="text-container">
@@ -145,7 +145,7 @@
     <!-- Ryggplattan -->
     <section class="product-container-backplate">
         <div class="backplate">
-            <img src="./images/backplate.png">
+            <img src="./images/backplate.left.back.png">
         </div>
         <div class="backplate-content">
             <div class="backplate-text-container">
@@ -162,7 +162,7 @@
     <!-- GPS-taggen -->
     <section class="product-container-GPS">
         <div class="GPS">
-            <img src="./images/gps.png">
+            <img src="./images/GPS-tag.png" alt="ReGens GPS-tagg">
         </div>
         <div class="GPS-content">
             <div class="GPS-text-container">
@@ -212,7 +212,7 @@
         <div class="newsletter-container">
             <p>Prenumerera på vårt nyhetsbrev</p>
             <form>
-                <input type="email" id="email" name="email" placeholder="ex: karl.karlsson@gmail.com">
+                <input class="input-field" type="email" id="email" name="email" placeholder="ex: karl.karlsson@gmail.com">
 
                 <button type="submit">Prenumerera</button>
             </form>
