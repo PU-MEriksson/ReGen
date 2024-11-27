@@ -57,6 +57,9 @@
     font-weight: var(--font-weight-medium, 500);
     line-height: 100%;
     white-space: nowrap;
+    user-select: none; /* Förhindra textmarkering */
+    -webkit-user-select: none; /* För webkit-webbläsare */
+    touch-action: none; /* Förhindra scroll och zoom */
   }
   #next-button {
     display: flex;
@@ -77,6 +80,9 @@
     font-weight: var(--font-weight-medium, 500);
     line-height: 100%;
     white-space: nowrap;
+    user-select: none; /* Förhindra textmarkering */
+    -webkit-user-select: none; /* För webkit-webbläsare */
+    touch-action: none; /* Förhindra scroll och zoom */
   }
 
 
