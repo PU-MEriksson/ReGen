@@ -162,7 +162,7 @@
     <!-- GPS-taggen -->
     <section class="product-container-GPS">
         <div class="GPS">
-            <img src="./images/gps.png">
+            <img src="./images/GPS-tag.png" alt="ReGens GPS-tagg">
         </div>
         <div class="GPS-content">
             <div class="GPS-text-container">
@@ -212,7 +212,7 @@
         <div class="newsletter-container">
             <p>Prenumerera på vårt nyhetsbrev</p>
             <form>
-                <input type="email" id="email" name="email" placeholder="ex: karl.karlsson@gmail.com">
+                <input class="input-field" type="email" id="email" name="email" placeholder="ex: karl.karlsson@gmail.com">
 
                 <button type="submit">Prenumerera</button>
             </form>
