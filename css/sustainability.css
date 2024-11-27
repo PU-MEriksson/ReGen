@@ -55,7 +55,7 @@
   max-height: 25rem;
   max-width: 573px;
   flex: 1 0 0;
-  background: url(/images/Sustainability-section1.png) lightgray 50% / cover
+  background: url(../images/Sustainability-section1.png) lightgray 50% / cover
     no-repeat;
 }
 
@@ -65,7 +65,7 @@
   min-height: 18.75rem;
   max-height: 25rem;
   flex: 1 0 0;
-  background: url(/images/Sustainability-section2.png) lightgray 50% / cover
+  background: url(../images/Sustainability-section2.png) lightgray 50% / cover
     no-repeat;
 }
 
@@ -76,7 +76,7 @@
   max-height: 25rem;
   max-width: 573px;
   flex: 1 0 0;
-  background: url(/images/Sustainability-section3.png) lightgray 50% / cover
+  background: url(../images/Sustainability-section3.png) lightgray 50% / cover
     no-repeat;
 }
 
@@ -116,62 +116,6 @@
   border-radius: 0.25rem;
   background: #e8edf0;
 }
-
-/* @media (min-width: 960px) {
-  .sustainability-section {
-    padding: 6rem 1rem;
-  }
-
-  .sustainability-container {
-    font-size: 3.75rem;
-    font-style: normal;
-    display: flex;
-  }
-
-  .cards-container {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-    align-self: stretch;
-  }
-
-  .sustainability-card {
-    display: flex;
-    min-width: 16.25rem;
-    align-items: flex-start;
-    align-content: flex-start;
-    gap: 1rem 1rem;
-    flex: 1 0 0;
-    flex-wrap: wrap;
-  }
-
-  .sustainability-background-image1 {
-    min-width: 16.25rem;
-    min-height: 18.75rem;
-    max-height: 25rem;
-    flex: 1 0 0;
-    background: url(/images/sustainabilitywide1.png) lightgray 50% / cover
-      no-repeat;
-  }
-
-  .sustainability-background-image2 {
-    min-width: 16.25rem;
-    min-height: 18.75rem;
-    max-height: 25rem;
-    flex: 1 0 0;
-    background: url(/images/sustainabilitywide2.png) lightgray 50% / cover
-      no-repeat;
-  }
-
-  .sustainability-background-image3 {
-    min-width: 16.25rem;
-    min-height: 18.75rem;
-    max-height: 25rem;
-    flex: 1 0 0;
-    background: url(/images/sustainabilitywide3.png) lightgray 50% / cover
-      no-repeat;
-  }
-} */
 
 @media (min-width: 960px) {
   .sustainability-section {
