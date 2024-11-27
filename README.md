@@ -79,3 +79,31 @@ This README describes the ReGen project, a fictional brand presentation created 
 ├── turntable.js # Script for product animations
 ├── navbar.js # Script for navigation bar functionality
 └── turntable.php # PHP script for server-side logic
+
+---
+
+## How to Use
+
+1. **Setup:**
+
+   - Ensure all files are placed in the correct directory structure as mentioned.
+   - Host the project on a local or online server to ensure PHP compatibility.
+
+2. **View:**
+   - Open `index.html` in your browser to explore the webpage.
+
+---
+
+## Goals of the Project
+
+This school project aims to:
+
+- Develop proficiency in modern web design and coding practices.
+- Showcase the integration of sustainability in a commercial brand narrative.
+- Practice responsive and user-friendly web development techniques.
+
+---
+
+## Acknowledgements
+
+This project is created for educational purposes. All images, icons, and content are used as placeholders to simulate a real-world product website.
