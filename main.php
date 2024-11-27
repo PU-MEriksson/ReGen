@@ -128,7 +128,8 @@
     <!-- här är hjälmen: -->
     <section class="product-container-helmet">
         <div class="helmet">
-            <img src="./images/helmet-white/0009.png">
+            <img src="./images/helmet-white/0009.png" class="static" alt="Skidhjälm">
+            <img src="./images/helmet-optimized.gif" class="active" alt="Skidhjälm som roterar">
         </div>
         <div class="helmet-content">
             <div class="text-container">
@@ -141,6 +142,8 @@
             </div>
         </div>
     </section>
+
+
 
     <!-- Ryggplattan -->
     <section class="product-container-backplate">
@@ -199,7 +202,7 @@
                 <div class="sustainability-card">
                     <div class="sustainability-background-image3"></div>
                     <div class="button-text-container">
-                        <p>För varje åkt kilometer med våra skidglasögon planterar vi ett träd.</p>
+                        <p>Miljövänliga och återvunna material med lång hållbarhet.</p>
                         <button>Läs om materialen</button>
                     </div>
                 </div>
@@ -221,6 +224,5 @@
 </body>
 
 
-<script src="./navbar.js">
-</script>
+<script src="./navbar.js"></script>
 </body>

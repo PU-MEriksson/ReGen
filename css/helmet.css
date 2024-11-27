@@ -20,6 +20,7 @@
   max-width: 480px;
   aspect-ratio: 1;
   flex-shrink: 0;
+  position: relative;
 }
 
 .helmet img {
@@ -28,6 +29,26 @@
   object-fit: contain;
   flex-shrink: 0;
   background: lightgray 50% / cover no-repeat, var(--colors-neutral-50, #f6f8f9);
+  position: absolute;
+}
+
+.static {
+  z-index: 1; /* Ensure it's above the GIF */
+  transition: opacity 0.3s ease; /* Smooth fade-out effect */
+}
+
+.active {
+  z-index: 0; /* GIF stays below the static image */
+  opacity: 0; /* Hide GIF initially */
+  transition: opacity 0.3s ease; /* Smooth fade-in effect */
+}
+
+.helmet:hover .static {
+  opacity: 0; /* Hide the static image on hover */
+}
+
+.helmet:hover .active {
+  opacity: 1; /* Show the GIF on hover */
 }
 
 .helmet-content {
