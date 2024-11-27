@@ -76,9 +76,6 @@
     white-space: nowrap;
   }
 
-  button:hover {
-    background-color: #ddd;
-  }
 
   #rotate-button {
     display: flex;
