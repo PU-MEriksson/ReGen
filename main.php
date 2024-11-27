@@ -46,34 +46,34 @@
     <section class="top-features">
         <div class="top-features-container">
             <h2>Tekniken bakom VERTEX skidglasögon</h2>
-            <img src="/images/VERTEXskigoggles.png" alt="Vertex skidglasögon">
+            <img src="./images/VERTEXskigoggles.png" alt="Vertex skidglasögon">
             <div class="feature-card-container">
 
                 <div class="feature-card-row">
                     <div class="feature-card">
-                        <img src="/icon/dew_point2.svg" alt="Anti-frost">
+                        <img src="./icon/dew_point2.svg" alt="Anti-frost">
                         <p>Anti-Frost</p>
                     </div>
                     <div class="feature-card">
-                        <img src="/icon/emergency_call2.svg" alt="Nödsamtal">
+                        <img src="./icon/emergency_call2.svg" alt="Nödsamtal">
                         <p>Nödsamtal</p>
                     </div>
                     <div class="feature-card">
-                        <img src="/icon/water_lock2.svg" alt="Vattentät">
+                        <img src="./icon/water_lock2.svg" alt="Vattentät">
                         <p>Vattentät</p>
                     </div>
                 </div>
                 <div class="feature-card-row">
                     <div class="feature-card">
-                        <img src="/icon/head_mounted_device2.svg" alt="AR">
+                        <img src="./icon/head_mounted_device2.svg" alt="AR">
                         <p>AR</p>
                     </div>
                     <div class="feature-card">
-                        <img src="/icon/headphones2.svg" alt="Hörlurar">
+                        <img src="./icon/headphones2.svg" alt="Hörlurar">
                         <p>Hörlurar</p>
                     </div>
                     <div class="feature-card">
-                        <img src="/icon/photo_camera2.svg" alt="HD-Kamera">
+                        <img src="./icon/photo_camera2.svg" alt="HD-Kamera">
                         <p>HD-Kamera</p>
                     </div>
                 </div>
@@ -125,7 +125,7 @@
     <!-- här är hjälmen: -->
     <section class="product-container-helmet">
         <div class="helmet">
-            <img src="/icon/img.png">
+            <img src="./icon/img.png">
         </div>
         <div class="helmet-content">
             <div class="text-container">
@@ -142,7 +142,7 @@
     <!-- Ryggplattan -->
     <section class="product-container-backplate">
         <div class="backplate">
-            <img src="/images/backplate.png">
+            <img src="./images/backplate.png">
         </div>
         <div class="backplate-content">
             <div class="backplate-text-container">
@@ -159,7 +159,7 @@
     <!-- GPS-taggen -->
     <section class="product-container-GPS">
         <div class="GPS">
-            <img src="/images/gps.png">
+            <img src="./images/gps.png">
         </div>
         <div class="GPS-content">
             <div class="GPS-text-container">
@@ -218,6 +218,6 @@
 </body>
 
 
-<script src="/navbar.js">
+<script src="./navbar.js">
 </script>
 </body>

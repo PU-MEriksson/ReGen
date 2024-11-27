@@ -4,17 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/hero.css">
-    <link rel="stylesheet" href="/css/body.css">
-    <link rel="stylesheet" href="/css/top-features.css">
-    <link rel="stylesheet" href="/css/helmet.css">
-    <link rel="stylesheet" href="/css/backplate.css">
-    <link rel="stylesheet" href="/css/gps-tag.css">
-    <link rel="stylesheet" href="/css/glassesPov.css">
-    <link rel="stylesheet" href="/css/sustainability.css">
-    <link rel="stylesheet" href="/css/newsletter.css">
-    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/hero.css">
+    <link rel="stylesheet" href="./css/body.css">
+    <link rel="stylesheet" href="./css/top-features.css">
+    <link rel="stylesheet" href="./css/helmet.css">
+    <link rel="stylesheet" href="./css/backplate.css">
+    <link rel="stylesheet" href="./css/gps-tag.css">
+    <link rel="stylesheet" href="./css/glassesPov.css">
+    <link rel="stylesheet" href="./css/sustainability.css">
+    <link rel="stylesheet" href="./css/newsletter.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <link rel="icon" type="image/svg+xml" href="./icon/brand_triangle.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -182,7 +182,7 @@
             <div class="end-container">
                 <button>Bli Medlem</button>
                 <button>Logga In</button>
-                <button> <img src="/icon/flag-uk.svg"> to English</button>
+                <button> <img src="./icon/flag-uk.svg"> to English</button>
             </div>
         </div>
     </nav>
