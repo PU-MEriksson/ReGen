@@ -92,7 +92,8 @@
 @media (min-width: 960px) {
   .product-container-GPS {
     display: flex;
-    width: 76.125rem;
+    flex-direction: row-reverse;
+    /* width: 76.125rem; */
     padding: 4rem 1rem;
     justify-content: center;
     align-items: center;
@@ -101,8 +102,7 @@
     flex-wrap: wrap;
   }
   .GPS {
-    width: 400px;
-    height: 400px;
+    max-width: 25;
   }
 }
 
@@ -118,7 +118,6 @@
     flex-wrap: wrap;
   }
   .GPS {
-    width: 480px;
-    height: 480px;
+    max-width: 30rem;
   }
 }

@@ -128,7 +128,7 @@
     <!-- här är hjälmen: -->
     <section class="product-container-helmet">
         <div class="helmet">
-            <img src="./icon/img.png">
+            <img src="./images/helmet-white/0009.png">
         </div>
         <div class="helmet-content">
             <div class="text-container">
@@ -145,7 +145,7 @@
     <!-- Ryggplattan -->
     <section class="product-container-backplate">
         <div class="backplate">
-            <img src="./images/backplate.png">
+            <img src="./images/backplate.left.back.png">
         </div>
         <div class="backplate-content">
             <div class="backplate-text-container">
