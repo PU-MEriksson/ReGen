@@ -96,6 +96,11 @@
     align-items: flex-start;
     align-self: stretch; /* Ändra layout till rad */
   }
+
+  .header-pov,
+  .description-pov {
+    text-align: left;
+  }
   #second .image-container {
     order: 1;
     flex: 0 0 50%; /* Enforce 50% width */
