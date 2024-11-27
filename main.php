@@ -46,7 +46,7 @@
     <section class="top-features">
         <div class="top-features-container">
             <h2>Tekniken bakom VERTEX skidglasögon</h2>
-            <img src="./images/VERTEXskigoggles.png" alt="Vertex skidglasögon">
+            <img src="./svart/0001.png" alt="Vertex skidglasögon">
             <div class="feature-card-container">
 
                 <div class="feature-card-row">
