@@ -1,154 +1,157 @@
 .hero {
-    display: flex;
-    /* width: 350px; */
-    height: 644px;
-    padding: var(--spacing-5, 32px) var(--spacing-3, 16px);
-    align-items: center;
-    /* background: linear-gradient(90deg, rgba(8, 54, 73, 0.60) 0%, rgba(8, 54, 73, 0.12) 100%), url(/images/hero.svg) lightgray 50% / cover no-repeat; */
-background-color:rgb(0, 122, 128);
+  display: flex;
+  /* width: 350px; */
+  height: 644px;
+  padding: var(--spacing-5, 32px) var(--spacing-3, 16px);
+  align-items: center;
+  background: linear-gradient(
+      90deg,
+      rgba(8, 54, 73, 0.6) 0%,
+      rgba(8, 54, 73, 0.12) 100%
+    ),
+    url(../images/hero-image.png) lightgray 50% / cover no-repeat;
+  background-color: rgb(0, 122, 128);
 }
 
 .content {
-    display: flex;
-max-width: 480px;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-gap: var(--spacing-5, 32px);
-flex: 1 0 0;
+  display: flex;
+  max-width: 480px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: var(--spacing-5, 32px);
+  flex: 1 0 0;
 }
 
 .text-container {
-    display: flex;
-flex-direction: column;
-align-items: flex-start;
-gap: var(--spacing-1, 8px);
-align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-1, 8px);
+  align-self: stretch;
 }
 
 .text:nth-child(1) {
-    color: var(--colors-neutral-50, #F6F8F9);
+  color: var(--colors-neutral-50, #f6f8f9);
 
-/* Headline Small */
-font-family: var(--font-family-header, "IBM Plex Sans");
-font-size: var(--font-size-6, 41px);
-font-style: normal;
-font-weight: var(--font-weight-bold, 600);
-line-height: 120%; /* 49.2px */
-align-self: stretch;
+  /* Headline Small */
+  font-family: var(--font-family-header, "IBM Plex Sans");
+  font-size: var(--font-size-6, 41px);
+  font-style: normal;
+  font-weight: var(--font-weight-bold, 600);
+  line-height: 120%; /* 49.2px */
+  align-self: stretch;
 }
 
 .text:nth-child(2) {
-    color: var(--colors-neutral-100, #E8EDF0);
+  color: var(--colors-neutral-100, #e8edf0);
 
-/* Title Small */
-font-family: var(--font-family-body, "IBM Plex Sans");
-font-size: var(--font-size-3, 24px);
-font-style: normal;
-font-weight: var(--font-weight-medium, 500);
-line-height: 150%; /* 36px */
-align-self: stretch;
+  /* Title Small */
+  font-family: var(--font-family-body, "IBM Plex Sans");
+  font-size: var(--font-size-3, 24px);
+  font-style: normal;
+  font-weight: var(--font-weight-medium, 500);
+  line-height: 150%; /* 36px */
+  align-self: stretch;
 }
 
 .button-container {
-    display: flex;
-flex-direction: column;
-align-items: flex-start;
-gap: var(--spacing-3, 16px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-3, 16px);
 }
 
 .explore {
-    all: unset;
-    display: flex;
-    height: var(--spacing-6, 48px);
-    padding: var(--spacing-2, 12px);
-    align-items: center;
-    gap: var(--spacing-1, 8px);
-    border-radius: var(--spacing-0, 4px);
-background: var(--colors-secondary-600, #029BC7);
-color: var(--colors-secondary-50, #F1FBFF);
+  all: unset;
+  display: flex;
+  height: var(--spacing-6, 48px);
+  padding: var(--spacing-2, 12px);
+  align-items: center;
+  gap: var(--spacing-1, 8px);
+  border-radius: var(--spacing-0, 4px);
+  background: var(--colors-secondary-600, #029bc7);
+  color: var(--colors-secondary-50, #f1fbff);
 
-
-font-family: var(--font-family-body, "IBM Plex Sans");
-font-size: var(--font-size-2, 20px);
-font-style: normal;
-font-weight: var(--font-weight-medium, 500);
-line-height: 100%;
+  font-family: var(--font-family-body, "IBM Plex Sans");
+  font-size: var(--font-size-2, 20px);
+  font-style: normal;
+  font-weight: var(--font-weight-medium, 500);
+  line-height: 100%;
 }
 
 .tech {
-    all: unset;
-    display: flex;
-    height: var(--spacing-6, 48px);
-    padding: var(--spacing-2, 12px);
-    align-items: center;
-    gap: var(--spacing-1, 8px);
-    border-radius: var(--spacing-0, 4px);
-border: 2px solid var(--colors-neutral-50, #F6F8F9);
-background: var(--colors-neutral-100, #E8EDF0);
+  all: unset;
+  display: flex;
+  height: var(--spacing-6, 48px);
+  padding: var(--spacing-2, 12px);
+  align-items: center;
+  gap: var(--spacing-1, 8px);
+  border-radius: var(--spacing-0, 4px);
+  border: 2px solid var(--colors-neutral-50, #f6f8f9);
+  background: var(--colors-neutral-100, #e8edf0);
 
-color: var(--colors-neutral-800, #384B54);
-font-family: var(--font-family-body, "IBM Plex Sans");
-font-size: var(--font-size-2, 20px);
-font-style: normal;
-font-weight: var(--font-weight-medium, 500);
-line-height: 100%;
+  color: var(--colors-neutral-800, #384b54);
+  font-family: var(--font-family-body, "IBM Plex Sans");
+  font-size: var(--font-size-2, 20px);
+  font-style: normal;
+  font-weight: var(--font-weight-medium, 500);
+  line-height: 100%;
 }
 
-@media(min-width: 960px) {
-    .hero {
-        height: 718px;
-    }
-    
-    .text:nth-child(1) {
-        color: var(--colors-neutral-50, #F6F8F9);
-        align-self: stretch;
-/* Headline Large */
-font-family: var(--font-family-header, "IBM Plex Sans");
-font-size: var(--font-size-8, 60px);
-font-style: normal;
-font-weight: var(--font-weight-bold, 600);
-line-height: 120%; /* 72px */
-    }
-    
-    .text:nth-child(2){
-        color: var(--colors-neutral-100, #E8EDF0);
-        align-self: stretch;
-        /* Title Small */
-        font-family: var(--font-family-body, "IBM Plex Sans");
-        font-size: var(--font-size-3, 24px);
-        font-style: normal;
-        font-weight: var(--font-weight-medium, 500);
-        line-height: 150%; /* 36px */
-    }
+@media (min-width: 960px) {
+  .hero {
+    height: 718px;
+  }
+
+  .text:nth-child(1) {
+    color: var(--colors-neutral-50, #f6f8f9);
+    align-self: stretch;
+    /* Headline Large */
+    font-family: var(--font-family-header, "IBM Plex Sans");
+    font-size: var(--font-size-8, 60px);
+    font-style: normal;
+    font-weight: var(--font-weight-bold, 600);
+    line-height: 120%; /* 72px */
+  }
+
+  .text:nth-child(2) {
+    color: var(--colors-neutral-100, #e8edf0);
+    align-self: stretch;
+    /* Title Small */
+    font-family: var(--font-family-body, "IBM Plex Sans");
+    font-size: var(--font-size-3, 24px);
+    font-style: normal;
+    font-weight: var(--font-weight-medium, 500);
+    line-height: 150%; /* 36px */
+  }
 }
 
-@media(min-width: 1440px) {
-   
-    .hero {
-        height: 1024px;
-    }
+@media (min-width: 1440px) {
+  .hero {
+    height: 1024px;
+  }
 
-    .text:nth-child(1) {
-        color: var(--colors-neutral-50, #F6F8F9);
-        align-self: stretch;
-/* Display Small */
-font-family: var(--font-family-header, "IBM Plex Sans");
-font-size: var(--font-size-9, 72px);
-font-style: normal;
-font-weight: var(--font-weight-bold, 600);
-line-height: 120%; /* 86.4px */
-    }
+  .text:nth-child(1) {
+    color: var(--colors-neutral-50, #f6f8f9);
+    align-self: stretch;
+    /* Display Small */
+    font-family: var(--font-family-header, "IBM Plex Sans");
+    font-size: var(--font-size-9, 72px);
+    font-style: normal;
+    font-weight: var(--font-weight-bold, 600);
+    line-height: 120%; /* 86.4px */
+  }
 
-    .text:nth-child(2) {
-        color: var(--colors-neutral-100, #E8EDF0);
-        align-self: stretch;
+  .text:nth-child(2) {
+    color: var(--colors-neutral-100, #e8edf0);
+    align-self: stretch;
 
-/* Title Base */
-font-family: var(--font-family-body, "IBM Plex Sans");
-font-size: var(--font-size-4, 29px);
-font-style: normal;
-font-weight: var(--font-weight-medium, 500);
-line-height: 150%; /* 43.5px */
-    }
+    /* Title Base */
+    font-family: var(--font-family-body, "IBM Plex Sans");
+    font-size: var(--font-size-4, 29px);
+    font-style: normal;
+    font-weight: var(--font-weight-medium, 500);
+    line-height: 150%; /* 43.5px */
+  }
 }

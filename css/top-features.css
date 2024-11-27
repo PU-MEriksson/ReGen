@@ -31,9 +31,7 @@
 }
 
 .top-features-container img {
-  height: 18.375rem;
-  /* align-self: stretch; */
-  transform: scaleX(-1);
+  height: 25rem;
 }
 
 .feature-card-container {
@@ -108,7 +106,7 @@
     align-items: center;
     gap: 2rem;
     padding: 3rem 0rem;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background: url(../images/snowy-background.png) lightgray 50% / cover
       no-repeat;
   }
@@ -126,7 +124,7 @@
   }
 
   .top-features-container img {
-    height: 34.8125rem;
+    height: 45rem;
   }
 
   .feature-card-container {
