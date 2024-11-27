@@ -122,7 +122,7 @@
     </section>
 
     <?php
-    // require __DIR__ . '/turntable.php';
+    require __DIR__ . '/turntable.php';
     ?>
 
     <!-- här är hjälmen: -->
@@ -220,7 +220,6 @@
     </section>
 </body>
 
-
-<script src="./navbar.js">
-</script>
+<script src="./turntable.js"></script>
+<script src="./navbar.js"></script>
 </body>

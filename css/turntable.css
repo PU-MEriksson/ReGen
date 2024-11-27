@@ -1,0 +1,227 @@
+.configurator {
+    display: flex;
+    height: 776px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-self: stretch;
+    background: url(../images/snow-backdrop.svg) 50% / cover no-repeat;
+
+  }
+
+  .turntable {
+    display: flex;
+    padding: var(--spacing-3, 16px) var(--spacing-3, 16px) var(--spacing-2, 12px) var(--spacing-3, 16px);
+    flex-direction: column;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+  }
+
+  #main-image {
+    flex: 1 0 0;
+    align-self: stretch; 
+    width: 100%; /* Anpassa bilden till container */
+    max-width: 500px; /* Begränsa bildstorleken */
+    margin: 0 auto; /* Centrera bilden */
+  }
+
+  #controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 8px var(--spacing-1, 8px);
+    align-self: stretch;
+    flex-wrap: wrap;
+  }
+
+  button {
+    display: flex;
+    min-width: 120px;
+    max-width: 140px;
+    padding: var(--spacing-1, 8px);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-1, 8px);
+    flex: 1 0 0;
+    border-radius: 4px;
+    background: var(--colors-neutral-800, #384B54);
+    color: var(--colors-neutral-50, #F6F8F9);
+    font-family: var(--font-family-body, "IBM Plex Sans");
+    font-size: var(--font-size-1, 17px);
+    font-style: normal;
+    font-weight: var(--font-weight-medium, 500);
+    line-height: 100%;
+    white-space: nowrap;
+  }
+
+  button:hover {
+    background-color: #ddd;
+  }
+
+  #rotate-button {
+    display: flex;
+height: 40px;
+padding: var(--spacing-1, 8px);
+align-items: center;
+gap: var(--spacing-1, 8px);
+border-radius: 4px;
+border: 2px solid var(--colors-neutral-600, #4E6D7B);
+background: var(--colors-neutral-50, #F6F8F9);
+color: var(--colors-neutral-800, #384B54);
+font-family: var(--font-family-body, "IBM Plex Sans");
+font-size: var(--font-size-1, 17px);
+font-style: normal;
+font-weight: var(--font-weight-medium, 500);
+line-height: 100%; /* 17px */
+  }
+
+  .color-picker {
+    display: flex;
+    padding: var(--spacing-4, 24px) var(--spacing-3, 16px) var(--spacing-6, 48px) var(--spacing-3, 16px);
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-4, 24px);
+    background: var(--colors-neutral-50, #F6F8F9);
+  }
+
+  .color-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-4, 24px);
+  }
+
+  .content {
+    display: flex;
+    max-width: 276px;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 2px var(--spacing-2, 12px);
+    align-self: stretch;
+    flex-wrap: wrap;
+    color: var(--colors-neutral-950, #212A30);
+    font-family: var(--font-family-body, "IBM Plex Sans");
+    font-size: var(--font-size-3, 24px);
+    font-style: normal;
+    font-weight: var(--font-weight-medium, 500);
+  }
+
+  .buttons-container {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--spacing-2, 12px);
+  }
+
+  .buy {
+    display: flex;
+    height: 48px;
+    padding: var(--spacing-2, 12px) var(--spacing-4, 24px);
+    align-items: center;
+    gap: var(--spacing-1, 8px);
+    border-radius: 4px;
+    background: var(--colors-secondary-700, #037BA1);
+    color: var(--colors-secondary-50, #F1FBFF);
+    font-family: var(--font-family-body, "IBM Plex Sans");
+    font-size: var(--font-size-2, 20px);
+    font-style: normal;
+    font-weight: var(--font-weight-medium, 500);
+    line-height: 100%;
+  }
+
+  .details {
+    display: flex;
+    height: 48px;
+    padding: var(--spacing-2, 12px);
+    align-items: center;
+    gap: var(--spacing-1, 8px);
+    border-radius: 4px;
+    border: 2px solid var(--colors-neutral-600, #4E6D7B);
+    color: var(--colors-neutral-800, #384B54);
+    font-family: var(--font-family-body, "IBM Plex Sans");
+    font-size: var(--font-size-2, 20px);
+    font-style: normal;
+    font-weight: var(--font-weight-medium, 500);
+    line-height: 100%;
+    background-color: white;
+  }
+
+  @media(min-width: 960px) {
+   
+        .configurator {
+            display: flex;
+            flex-direction: row; /* Horizontal layout */
+            justify-content: space-between; /* Spread sections across */
+            align-items: center; /* Align to the top */
+            padding: 16px; /* Adjust spacing if needed */
+        }
+    
+        .color-picker {
+            order: 1; /* Ensure it appears on the left */
+            flex: 0 1 40%; /* Take up 40% of the container width */
+            max-width: 400px; /* Optional: limit max width */
+            display: flex; /* Enable flexbox */
+            flex-direction: column; /* Stack children vertically */
+            justify-content: center; /* Center the content vertically */
+            align-items: center; /* Center the content horizontally */
+        }
+    
+        .turntable {
+            order: 2; /* Place it to the right */
+            flex: 1; /* Take up the remaining space */
+            max-width: 60%; /* Optional: limit max width */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .buttons-container {
+            display: flex;
+            flex-direction: row; /* Keep buttons in a row */
+            gap: var(--spacing-2, 12px); /* Add spacing between buttons */
+            justify-content: center; /* Center buttons horizontally */
+        }
+    
+        #main-image {
+            width: 100%; /* Ensure image adapts to container */
+            max-width: 500px; /* Optional: limit max width */
+            margin: 0 auto; /* Center image within container */
+        }
+    
+  }
+
+  @media(min-width: 1440px) {
+   
+        .configurator {
+            display: flex;
+            flex-direction: row; /* Horisontell layout */
+            justify-content: space-between; /* Sprid ut sektionerna */
+            align-items: center; /* Justera till toppen */
+            padding: 16px; /* Anpassa om nödvändigt */
+        }
+    
+        .color-picker {
+            order: 1; /* Placera color-picker till vänster */
+            flex: 0 1 40%; /* Tar upp 40% av bredden */
+            max-width: 400px; /* Begränsa maximal bredd */
+        }
+    
+        .turntable {
+            order: 2; /* Placera turntable till höger */
+            flex: 1; /* Ta upp resterande utrymme */
+            max-width: 60%; /* Begränsa maximal bredd */
+        }
+    
+        .buttons-container {
+            justify-content: flex-start; /* Justera knapparna till vänster */
+        }
+    
+        #main-image {
+            width: 100%; /* Anpassa bilden till container */
+            max-width: 500px; /* Begränsa bildstorleken */
+            margin: 0 auto; /* Centrera bilden */
+        }
+    
+    
+  }

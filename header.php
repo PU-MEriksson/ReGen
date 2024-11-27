@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/hero.css">
     <link rel="stylesheet" href="./css/body.css">
     <link rel="stylesheet" href="./css/top-features.css">
+    <link rel="stylesheet" href="./css/turntable.css">
     <link rel="stylesheet" href="./css/helmet.css">
     <link rel="stylesheet" href="./css/backplate.css">
     <link rel="stylesheet" href="./css/gps-tag.css">
