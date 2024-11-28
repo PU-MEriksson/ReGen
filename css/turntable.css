@@ -18,11 +18,14 @@
   }
 
   #main-image {
-    flex: 1 0 0;
-    align-self: stretch; 
-    width: 100%; /* Anpassa bilden till container */
-    max-width: 500px; /* Begränsa bildstorleken */
-    margin: 0 auto; /* Centrera bilden */
+  
+        max-width: 100%; /* Bilden får aldrig bli bredare än behållaren */
+        max-height: 500px; /* Sätt en gräns för höjden */
+        width: auto; /* Behåller proportionerna */
+        height: auto; /* Behåller proportionerna */
+        object-fit: contain; /* Anpassar bilden utan att beskära */
+      
+      
   }
 
   #controls {
@@ -54,6 +57,9 @@
     font-weight: var(--font-weight-medium, 500);
     line-height: 100%;
     white-space: nowrap;
+    user-select: none; /* Förhindra textmarkering */
+    -webkit-user-select: none; /* För webkit-webbläsare */
+    touch-action: none; /* Förhindra scroll och zoom */
   }
   #next-button {
     display: flex;
@@ -74,6 +80,9 @@
     font-weight: var(--font-weight-medium, 500);
     line-height: 100%;
     white-space: nowrap;
+    user-select: none; /* Förhindra textmarkering */
+    -webkit-user-select: none; /* För webkit-webbläsare */
+    touch-action: none; /* Förhindra scroll och zoom */
   }
 
 
@@ -222,9 +231,14 @@ line-height: 100%;
         }
     
         #main-image {
-            width: 100%; /* Ensure image adapts to container */
-            max-width: 500px; /* Optional: limit max width */
-            margin: 0 auto; /* Center image within container */
+
+                max-width: 100%; /* Bilden får aldrig bli bredare än behållaren */
+                max-height: 500px; /* Sätt en gräns för höjden */
+                width: auto; /* Behåller proportionerna */
+                height: auto; /* Behåller proportionerna */
+                object-fit: contain; /* Anpassar bilden utan att beskära */
+              
+              
         }
     
   }
@@ -256,9 +270,17 @@ line-height: 100%;
         }
     
         #main-image {
-            width: 100%; /* Anpassa bilden till container */
-            max-width: 500px; /* Begränsa bildstorleken */
-            margin: 0 auto; /* Centrera bilden */
+            /* width: 100%; 
+            max-width: 700px; 
+            margin: 0 auto;  */
+           
+                max-width: 100%; /* Bilden får aldrig bli bredare än behållaren */
+                max-height: 500px; /* Sätt en gräns för höjden */
+                width: auto; /* Behåller proportionerna */
+                height: auto; /* Behåller proportionerna */
+                object-fit: contain; /* Anpassar bilden utan att beskära */
+              
+              
         }
     
     
